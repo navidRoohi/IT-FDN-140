@@ -94,3 +94,13 @@ SUPPRESS TRACKING
 Exclude temporary files and paths
 $ git ls-files --other --ignored --exclude-standard
 Lists all ignored files in this project
+
+
+ADDED
+shows list of the commits 
+$ git log --oneline
+
+checkout the branch and have the commit as the head
+$ git checkout <sha1 first 7 char>
+
+
